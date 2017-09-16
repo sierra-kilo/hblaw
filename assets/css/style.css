@@ -4,10 +4,10 @@
 
 @media screen and (max-width: 767px){
     .navbar {
-        min-height: 5em;
+        min-height: 4em;
         font-size: .6em;
     }
-    /*.navbar-brand {
-        font-size: .6em;
-    }*/
+    .navbar-brand {
+        font-size: .7em;
+    }
 }
