@@ -2,15 +2,12 @@
     min-height: 80px;
 }
 
-/*.navbar> li > a {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    line-height: 80px;
+@media screen and (max-width: 699px){
+    .navbar {
+        min-height: 5em;
+        font-size: 2em;
+    }
+    .navbar-brand {
+        font-size: 1.5em;
+    }
 }
-
-@media (max-width: 767px) {
-    .navbar > li > a {
-    line-height: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;}
-}*/
