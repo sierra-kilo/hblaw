@@ -2,7 +2,7 @@
     min-height: 80px;
 }
 
-@media screen and (max-width: 699px){
+@media screen and (max-width: 767px){
     .navbar {
         min-height: 5em;
         font-size: 2em;
