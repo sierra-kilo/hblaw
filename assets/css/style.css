@@ -1,0 +1,16 @@
+.navbar {
+    min-height: 80px;
+}
+
+/*.navbar> li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}
+
+@media (max-width: 767px) {
+    .navbar > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}*/
