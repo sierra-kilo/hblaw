@@ -1,16 +1,3 @@
 .navbar {
     min-height: 80px;
 }
-
-@media screen and (max-width: 767px){
-    .navbar {
-        min-height: 4em;
-        font-size: .6em;
-    }
-    .navbar-brand {
-        font-size: .7em;
-    }
-    .nav-item {
-        font-size: .7em;
-    }
-}
