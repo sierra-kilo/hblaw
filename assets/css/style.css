@@ -29,8 +29,8 @@
 }
 
 .carousel-inner img {
-    display: block;
-    margin: auto;
+    min-width: 100%;
+    overflow: hidden;
 }
 
 /*.no-padding {
