@@ -52,7 +52,7 @@
         <!-- image carousel -->
         <div class="container-fluid no-padding">
             <div class="row">
-                <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-12">
+                <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                       <div class="carousel-inner" role="listbox">
                         <div class="carousel-item active">
@@ -69,34 +69,98 @@
                 </div>
             </div>
         </div>
-
+        <br>
         <!-- about section -->
         <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 offset-md-1 offset-lg-1 offset-xl-1">
-                    <img src="assets/img/haig.jpg" class="rounded-circle" alt="haig">
+            <div class="row about justify-content-center">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 ">
+                    <img src="assets/img/haig.jpg" class="rounded-circle self" alt="haig">
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
-                    <div class="About align-text-middle">
-                        <h1>About</h1>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <span class="About align-text-bottom">
+                        <h1><u>About</u></h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
+                    </span>
+                </div>
+                <div class="news col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <script type="text/javascript" src="http://output68.rssinclude.com/output?type=js&amp;id=1155796&amp;hash=aeb0e2efb5e6532404a3b37f3cc429b1"></script>
                 </div>
             </div>
         </div>
+        <br>
 
         <!-- areas of practice -->
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
-                    <h1>Areas of Practice</h1>
-                    <h2>Labor Law</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    <h2>Union Contracts</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                    <h2>Wills & Trusts</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <h1><u>Areas of Practice</u></h1>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                            <h2>Labor Law</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                            <h2>Union Contracts</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                            <h2>Wills & Trusts</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        </div>
+
+                    </div>
+
                 </div>
+            </div>
+        </div>
+        <br>
+        <!-- contact -->
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
+                    <div class="card">
+                      <div class="card-header">
+                        Contact Us
+                      </div>
+                      <br>
+                      <div class="card-block">
+                          <div class="form-group row">
+                            <label for="example-email-input" class="col-2 col-form-label">Email</label>
+                            <div class="col-10">
+                              <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
+                            <div class="col-10">
+                              <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input">
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="example-datetime-local-input" class="col-2 col-form-label">Date and time</label>
+                            <div class="col-10">
+                              <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="example-text-input" class="col-2 col-form-label">Message</label>
+                            <div class="col-10">
+                              <input class="form-control" type="text" value="What can we help you with" id="example-text-input">
+                            </div>
+                          </div>
+                        <button class="btn btn-primary">Submit</button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="container-fluid">
+                <span class="text-muted">Text here</span>
             </div>
         </div>
     </body>
